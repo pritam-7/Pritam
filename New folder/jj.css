@@ -1,0 +1,46 @@
+.button {
+	font-family: 'Droid Sans', sans-serif;
+	height: 35px;
+	width: 130px;
+	border-radius: 25px;
+	margin: 40px;
+	border: 1px solid rgba(0,0,0,0.4) ;
+	cursor: pointer;
+}
+.title {
+	padding: 10px;
+	float: left;
+	color: #fff;
+	font-weight: 800;
+	font-size: 7px;
+	text-shadow: 1px 1px rgba(0,0,0,0.2);
+	text-transform: uppercase;
+	border-right: 1px solid rgba(255,255,255,0.3);
+}
+.prc {
+	padding: 10px;
+	float: left;
+	color: rgb(204,204,204);
+	font-weight: 800;
+	font-size: 7px;
+	text-shadow: 1px 1px rgba(255,255,255,0.3);
+	text-transform: uppercase;	
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.color {
+	background: rgb(110,123,139);
+	
+}
+
+.color:hover {
+	background: rgb(221,221,221);
+	
+}
+
+.color:active{
+	background-color: Gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
